@@ -1,1 +1,29 @@
-<p>home works!</p>
+<div class="home-container">
+    <div class="home-title"></div>
+    <div class="home-search">
+        <div class="search-title">
+            Busca las interacciones mas comunes entre farmacos y nutrientes
+        </div>
+        <div class="search-input">
+            <p-autoComplete
+            [(ngModel)]="selectedDrug"
+            [suggestions]="filteredDrugs"
+            (completeMethod)="filterDrug($event)"
+            (onSelect)="onDrugSelected($event)"
+            appendTo="body"
+            optionLabel="label" />
+        </div>
+        <div class="search-text">
+            Algunos ejemplos: metformina, enalapril, levotiroxina
+        </div>
+    </div>
+    <div class="home-more-info">
+        <div class="envejecimiento"></div>
+        <div class="polifarmacia"></div>
+    </div>
+    <div class="home-sabias-que"></div>
+    <div class="home-perfil-demo">
+        <div class="main-chart"></div>
+        <div class="secondary-chart"></div>
+    </div>
+</div>

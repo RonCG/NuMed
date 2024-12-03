@@ -1,0 +1,54 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .home-title {
+        width: 100%;
+        height: 50em;
+        background: green;
+    }
+    .home-search {
+        width: 100%;
+        height: 15em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: gray;
+    }
+    .home-more-info {
+        display: flex;
+        width: 100%;
+        height: 40em;
+        .envejecimiento {
+            width: 50%;
+            height: 100%;
+            background: lightblue;
+        }
+        .polifarmacia {
+            width: 50%;
+            height: 100%;
+            background: lightcoral;
+        }
+    }
+    .home-sabias-que {
+        width: 100%;
+        height: 40em;
+        background-color: aquamarine;
+    }
+    .home-perfil-demo {
+        display: flex;
+        width: 100%;
+        height: 45m;
+        .main-chart {
+            width: 60%;
+            height: 100%;
+            background: lightblue;
+        }
+        .secondary-chart {
+            width: 40%;
+            height: 100%;
+            background: lightcoral;
+        }
+    }
+}
