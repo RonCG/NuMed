@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AutoCompleteCompleteEvent, AutoCompleteSelectEvent } from 'primeng/autocomplete';
+import { DrugService } from 'src/app/services/drug.service';
 
 @Component({
   selector: 'app-home',
@@ -8,22 +9,23 @@ import { AutoCompleteCompleteEvent, AutoCompleteSelectEvent } from 'primeng/auto
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
-  drugs: any[] = [
-    { label: 'Warfarina', value: '1' },
-    { label: 'Metformina', value: '2' },
-    { label: 'Enalapril', value: '3' },
-    { label: 'Levotiroxina', value: '4' },
-  ];
+  drugs: any[] = [];
   selectedDrug: any;
   filteredDrugs: any[] = [...this.drugs];
 
   constructor(
-    private router: Router
+    private router: Router,
+    private drugService: DrugService
   ) {
 
   }
 
   ngOnInit(): void {
+    this.getDrugsList();
+  }
+
+  getDrugsList() {
+    this.drugs = this.drugService.getDrugsList();
   }
 
 

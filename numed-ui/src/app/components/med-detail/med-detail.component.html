@@ -1,6 +1,6 @@
-<div class="drug-container">
+<div class="drug-container" *ngIf="drugDetail">
     <div class="drug-title">
-        <span>TITLE</span>
+        <span>{{drugDetail.nombreGenerico}}</span>
     </div>
     <div class="drug-info-container">
         <div class="drug-name">
@@ -8,8 +8,8 @@
                 Nombres Comerciales
             </div>
             <div class="names-container">
-                <div>
-                    lorep ipsum
+                <div *ngFor="let item of drugDetail.nombresComerciales">
+                    {{item}}
                 </div>
             </div>
         </div>
@@ -19,7 +19,7 @@
             </div>
             <div class="pres-container">
                 <div>
-                    lorep ipsum
+                    {{drugDetail.presentacion}}
                 </div>
             </div>
             <div class="admin">
@@ -27,7 +27,7 @@
             </div>
             <div class="admin-container">
                 <div>
-                    lorep ipsum
+                    {{drugDetail.administracion}}
                 </div>
             </div>
         </div>
@@ -36,36 +36,38 @@
                 Usos
             </div>
             <div class="uses-container">
-                <div>
-                    lorep ipsum
+                <div *ngFor="let item of drugDetail.usos">
+                    {{item}}
                 </div>
             </div>
         </div>
     </div>
     <div class="drug-interactions">
         <div class="interactions-title">Interacciones</div>
-        <p-panel header="Interaction Title" [toggleable]="true" [collapsed]="true">
-            <p>
-                Lorem ipsum dolor sit amet...
-            </p>
-        </p-panel>
+        <div *ngFor="let interaccion of drugDetail.interacciones">
+            <p-panel [header]="interaccion.nombreInteraccion" [toggleable]="true" [collapsed]="true">
+                <p>
+                    {{interaccion.mecanismo}}
+                </p>
+            </p-panel>
+        </div>
     </div>
     <div class="drug-mecanisms-container">
         <div class="drug-mecanism">
             <div>Mecanismo de Accion</div>
-            <div>lorep ipsum</div>
+            <div>{{drugDetail.mecanismoDeAccion}}</div>
         </div>
         <div class="drug-mecanism">
             <div>Reacciones Adversas</div>
-            <div>lorep ipsum</div>
+            <div>{{drugDetail.reaccionesAdversas}}</div>
         </div>
         <div class="drug-mecanism">
             <div>Mecanismo Renal</div>
-            <div>lorep ipsum</div>
+            <div>{{drugDetail.mecanismoRenal}}</div>
         </div>
         <div class="drug-mecanism">
             <div>Mecanismo Hepatico</div>
-            <div>lorep ipsum</div>
+            <div>{{drugDetail.mecanismoHepatico}}</div>
         </div>
     </div>
 </div>
