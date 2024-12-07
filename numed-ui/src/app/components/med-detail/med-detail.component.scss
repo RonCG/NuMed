@@ -1,0 +1,101 @@
+.drug-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .drug-title {
+        width: 100%;
+        height: 10em;
+        background: gray;
+
+        span {
+            // Add styles here
+        }
+    }
+
+    .drug-info-container {
+        display: flex;
+        width: 100%;
+
+        .drug-name {
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            background: lightblue;
+
+            .name {
+                // Add styles here
+            }
+
+            .names-container {
+                div {
+                    // Add styles here
+                }
+            }
+        }
+
+        .drug-pres {
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+
+            .pres {
+                // Add styles here
+            }
+
+            .pres-container {
+                div {
+                    // Add styles here
+                }
+            }
+
+            .admin {
+                // Add styles here
+            }
+
+            .admin-container {
+                div {
+                    // Add styles here
+                }
+            }
+        }
+
+        .drug-uses {
+            width: 33%;
+            display: flex;
+            flex-direction: column;
+            background: lightblue;
+
+            .uses {
+                // Add styles here
+            }
+
+            .uses-container {
+                div {
+                    // Add styles here
+                }
+            }
+        }
+    }
+
+    .drug-interactions {
+        width: 100%;
+        height: 10em;
+        background: gray;
+
+        .interactions-title {
+            width: 100%;
+        }
+    }
+
+    .drug-mecanisms-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .drug-mecanism {
+            div {
+                // Add styles here
+            }
+        }
+    }
+}

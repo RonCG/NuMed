@@ -1,3 +1,16 @@
 body {
     margin: 0;
 }
+
+
+p-panel {
+    .p-panel-header {
+        padding: 0.75rem 0.5rem;
+        .p-panel-title {
+            order: 3 !important;
+        }
+        .p-panel-icons {
+            margin-left: 0;
+        }
+    }
+}
