@@ -5,41 +5,43 @@
     <div class="drug-info-container">
         <div class="drug-name">
             <div class="name">
-                Nombres Comerciales
+                <i class="pi pi-sort-up-fill"></i> Nombres Comerciales
             </div>
-            <div class="names-container">
-                <div *ngFor="let item of drugDetail.nombresComerciales">
-                    {{item}}
-                </div>
-            </div>
+            <ul class="names-container">
+                <li *ngFor="let item of drugDetail.nombresComerciales">
+                    <div class="names-detail">
+                        {{item | capitalizeFirst}}
+                    </div>
+                </li>
+            </ul>
         </div>
         <div class="drug-pres">
             <div class="pres">
-                Presentacion
+                <i class="pi pi-sort-up-fill"></i> Presentacion
             </div>
             <div class="pres-container">
                 <div>
-                    {{drugDetail.presentacion}}
+                    {{drugDetail.presentacion | capitalizeFirst}}
                 </div>
             </div>
             <div class="admin">
-                Administracion
+                <i class="pi pi-sort-up-fill"></i> Administracion
             </div>
             <div class="admin-container">
                 <div>
-                    {{drugDetail.administracion}}
+                    {{drugDetail.administracion | capitalizeFirst}}
                 </div>
             </div>
         </div>
         <div class="drug-uses">
             <div class="uses">
-                Usos
+                <i class="pi pi-sort-up-fill"></i> Usos
             </div>
-            <div class="uses-container">
-                <div *ngFor="let item of drugDetail.usos">
-                    {{item}}
-                </div>
-            </div>
+            <ul class="uses-container">
+                <li *ngFor="let item of drugDetail.usos" class="uses-detail">
+                        {{item | capitalizeFirst}}
+                </li>
+            </ul>
         </div>
     </div>
     <div class="drug-interactions-container">
@@ -48,7 +50,7 @@
             <div *ngFor="let interaccion of drugDetail.interacciones" class="interactions-info">
                 <p-panel [header]="interaccion.nombreInteraccion" [toggleable]="true" [collapsed]="true">
                     <p>
-                        {{interaccion.mecanismo}}
+                        {{interaccion.mecanismo | capitalizeFirst}}
                     </p>
                 </p-panel>
             </div>
@@ -56,20 +58,20 @@
     </div>
     <div class="drug-mecanisms-container">
         <div class="drug-mecanism">
-            <div class="title">Mecanismo de Accion</div>
-            <div class="detail">{{drugDetail.mecanismoAccion}}</div>
+            <div class="title"><i class="pi pi-circle"></i>Mecanismo de Accion</div>
+            <div class="detail">{{drugDetail.mecanismoAccion | capitalizeFirst}}</div>
         </div>
         <div class="drug-mecanism">
-            <div class="title">Reacciones Adversas</div>
-            <div class="detail">{{drugDetail.reaccionesAdversas}}</div>
+            <div class="title"><i class="pi pi-circle"></i>Reacciones Adversas</div>
+            <div class="detail">{{drugDetail.reaccionesAdversas | capitalizeFirst}}</div>
         </div>
         <div class="drug-mecanism">
-            <div class="title">Mecanismo Renal</div>
-            <div class="detail">{{drugDetail.mecanismoRenal}}</div>
+            <div class="title"><i class="pi pi-circle"></i>Mecanismo Renal</div>
+            <div class="detail">{{drugDetail.mecanismoRenal | capitalizeFirst}}</div>
         </div>
         <div class="drug-mecanism">
-            <div class="title">Mecanismo Hepatico</div>
-            <div class="detail">{{drugDetail.mecanismoHepatico}}</div>
+            <div class="title"><i class="pi pi-circle"></i>Mecanismo Hepatico</div>
+            <div class="detail">{{drugDetail.mecanismoHepatico | capitalizeFirst}}</div>
         </div>
     </div>
 </div>

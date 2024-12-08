@@ -17,6 +17,7 @@
             [suggestions]="filteredDrugs"
             (completeMethod)="filterDrug($event)"
             (onSelect)="onDrugSelected($event)"
+            [emptyMessage]="'No se han encontrado resultados'"
             appendTo="body"
             optionLabel="label" />
         </div>

@@ -34,11 +34,18 @@
             .name {
                 font-size: 1.75em;
                 font-weight: bold;
+                display: flex;
+                align-items: center;
+                i {
+                    font-size: 0.6em;
+                    padding-top: 0.25em;
+                    rotate: 90deg;
+                }
             }
 
             .names-container {
                 padding: 1.25em 1.75em;
-                div {
+                .names-detail {
                     font-size: 1.4em;
                     padding-bottom: 0.5em;
                 }
@@ -55,6 +62,11 @@
             .pres {
                 font-size: 1.75em;
                 font-weight: bold;
+                i {
+                    font-size: 0.6em;
+                    padding-top: 0.25em;
+                    rotate: 90deg;
+                }
             }
 
             .pres-container {
@@ -68,6 +80,11 @@
             .admin {
                 font-size: 1.75em;
                 font-weight: bold;
+                i {
+                    font-size: 0.6em;
+                    padding-top: 0.25em;
+                    rotate: 90deg;
+                }
             }
 
             .admin-container {
@@ -89,11 +106,16 @@
             .uses {
                 font-size: 1.75em;
                 font-weight: bold;
+                i {
+                    font-size: 0.6em;
+                    padding-top: 0.25em;
+                    rotate: 90deg;
+                }
             }
 
             .uses-container {
                 padding: 1.25em 1.75em;
-                div {
+                .uses-detail {
                     font-size: 1.4em;
                     padding-bottom: 0.5em;
                 }
@@ -142,6 +164,8 @@
                 font-size: 1.75em;
                 font-weight: bold;
                 color: #0c888a;
+                display: flex;
+                align-items: center;
             }
             .detail {
                 padding: 1em 0em;
@@ -149,4 +173,13 @@
             }
         }
     }
+}
+
+.pi-circle-fill {
+    font-size: 0.2em;
+}
+
+.pi-circle {
+    font-size: 0.45em;
+    padding-right: 0.5em;
 }

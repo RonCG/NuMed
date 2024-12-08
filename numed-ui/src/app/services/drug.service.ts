@@ -12,7 +12,7 @@ export class DrugService {
         let allDrugs = this.getAllDrugs();
         allDrugs.forEach(drug => {
             let drugLookup = {
-                label: drug.nombreGenerico,
+                label: String(drug.nombreGenerico).charAt(0).toUpperCase() + String(drug.nombreGenerico).slice(1),
                 value: drug.id
             }
 

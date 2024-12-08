@@ -8,13 +8,15 @@ import { HomeComponent } from './components/home/home.component';
 import { MedDetailComponent } from './components/med-detail/med-detail.component';
 import { AutoCompleteModule } from 'primeng/autocomplete';
 import { PanelModule } from 'primeng/panel';
+import { CapitalizeFirstPipe } from './pipes/capitalize-first.pipe';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    MedDetailComponent
+    MedDetailComponent,
+    CapitalizeFirstPipe
   ],
   imports: [
     BrowserModule,
