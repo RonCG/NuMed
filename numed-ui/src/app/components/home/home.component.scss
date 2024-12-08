@@ -3,18 +3,50 @@
     flex-direction: column;
     width: 100%;
     .home-title {
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        height: 50em;
-        background: green;
+        height: 56em;
+        background-image: url("../../../assets/img1_p.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .title {
+            font-size: 4.5em;
+            font-weight: bold;
+            padding: 2.5em 2em 0.5em 2em;
+        }
+        .description {
+            font-size: 1.25em;
+            padding-left: 7.5em;
+            width: 50%;
+            color: #5167bc;
+
+        }
     }
     .home-search {
         width: 100%;
         height: 15em;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        background: gray;
+        background: #5167bc;
+        .search-title {
+            font-size: 1.75em;
+            color: white;
+            padding-top: 1.2em;
+        }
+        .search-input {
+            width: 56%;
+            padding-top: 1.2em;
+         
+        }
+        .search-text {
+            width: 54%;
+            font-size: 1.25em;
+            color: white;
+            text-decoration: underline;
+            padding-top: 1em;
+        }
     }
     .home-more-info {
         display: flex;
@@ -33,22 +65,115 @@
     }
     .home-sabias-que {
         width: 100%;
-        height: 40em;
-        background-color: aquamarine;
+        height: auto;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title {
+            width: 100%;
+            font-size: 2.25em;
+            font-weight: bold;
+            color: #0c888a;
+            padding: 1.75em 2em 0.5em 2em;
+        }
+        .description {
+            width: 100%;
+            font-size: 1.8em;
+            padding: 0em 0em 1em 2.5em;
+            color: gray;
+        }
+        .chart {
+            width: 100%;
+            height: 27em;
+            background-image: url("../../../assets/img5.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .footer {
+            width: 87%;
+            font-size: 1.42em;
+            padding: 2em 0em;
+        }
     }
     .home-perfil-demo {
         display: flex;
-        width: 100%;
-        height: 45m;
-        .main-chart {
-            width: 60%;
-            height: 100%;
-            background: lightblue;
+        flex-direction: column;
+        align-items: center;
+        .title {
+            font-size: 2.25em;
+            font-weight: bold;
+            color: #5167bc;
+            padding: 0em 2em 0.5em 2em;
         }
-        .secondary-chart {
-            width: 40%;
-            height: 100%;
-            background: lightcoral;
+        .charts-container {
+            display: flex;
+            width: 100%;
+            height: 47em;
+            background: #91abe25e;
+            justify-content: space-around;
+            padding: 2em 0em;
+            .main-chart-container {
+                width: 55%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .main-chart {
+                    height: 32em;
+                    background-image: url("../../../assets/img6.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .info {
+                    background: #91abe273;
+                    height: 8em;
+                    display: flex;
+                    align-items: center;
+                    .detail {
+                        font-size: 1.3em;
+                        width: 62%;
+                        padding: 0em 0em 0em 1em;
+                    }
+                    .image {
+                        width: 15%;
+                        height: 83%;
+                        background-image: url("../../../assets/img8.png");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    .note {
+                        width: 23%;
+                        font-size: 1.3em;
+                        padding: 0em 1em;
+                        text-align: center;
+                    }
+                }
+            }
+            .secondary-chart-container {
+                width: 37%;
+                height: 100%;
+                background: #91abe273;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .info {
+                    width: 90%;
+                    font-size: 1.5em;
+                    padding: 3em 0em;
+                }
+                .secondary-chart {
+                    width: 76%;
+                    height: 15em;
+                    background-image: url("../../../assets/img7.png");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .footer {
+                    width: 70%;
+                    font-size: 1.5em;
+                    padding-top: 3em;
+                }
+            }
         }
     }
 }

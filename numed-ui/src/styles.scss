@@ -22,3 +22,17 @@ p-panel {
         font-size: 1.4em;
     }
 }
+
+.p-autocomplete {
+    width: 100%;
+    .p-autocomplete-input {
+        width: 93%;
+        border-radius: 35px;
+        padding: 1.35rem 0.75rem
+    }
+}
+
+.p-autocomplete-panel {
+    border-radius: 10px !important;
+    width: 93% !important;
+}
