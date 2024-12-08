@@ -6,11 +6,19 @@ body {
 p-panel {
     .p-panel-header {
         padding: 0.75rem 0.5rem;
+        border: none;
+        background: white;
         .p-panel-title {
             order: 3 !important;
+            font-size: 1.5em;
         }
         .p-panel-icons {
             margin-left: 0;
         }
+    }
+    .p-panel-content {
+        border: none;
+        padding: 0em 1.25em;
+        font-size: 1.4em;
     }
 }

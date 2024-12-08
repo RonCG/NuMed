@@ -42,32 +42,34 @@
             </div>
         </div>
     </div>
-    <div class="drug-interactions">
-        <div class="interactions-title">Interacciones</div>
-        <div *ngFor="let interaccion of drugDetail.interacciones">
-            <p-panel [header]="interaccion.nombreInteraccion" [toggleable]="true" [collapsed]="true">
-                <p>
-                    {{interaccion.mecanismo}}
-                </p>
-            </p-panel>
+    <div class="drug-interactions-container">
+        <div class="drug-interactions">
+            <div class="interactions-title">Interacciones</div>
+            <div *ngFor="let interaccion of drugDetail.interacciones" class="interactions-info">
+                <p-panel [header]="interaccion.nombreInteraccion" [toggleable]="true" [collapsed]="true">
+                    <p>
+                        {{interaccion.mecanismo}}
+                    </p>
+                </p-panel>
+            </div>
         </div>
     </div>
     <div class="drug-mecanisms-container">
         <div class="drug-mecanism">
-            <div>Mecanismo de Accion</div>
-            <div>{{drugDetail.mecanismoDeAccion}}</div>
+            <div class="title">Mecanismo de Accion</div>
+            <div class="detail">{{drugDetail.mecanismoDeAccion}}</div>
         </div>
         <div class="drug-mecanism">
-            <div>Reacciones Adversas</div>
-            <div>{{drugDetail.reaccionesAdversas}}</div>
+            <div class="title">Reacciones Adversas</div>
+            <div class="detail">{{drugDetail.reaccionesAdversas}}</div>
         </div>
         <div class="drug-mecanism">
-            <div>Mecanismo Renal</div>
-            <div>{{drugDetail.mecanismoRenal}}</div>
+            <div class="title">Mecanismo Renal</div>
+            <div class="detail">{{drugDetail.mecanismoRenal}}</div>
         </div>
         <div class="drug-mecanism">
-            <div>Mecanismo Hepatico</div>
-            <div>{{drugDetail.mecanismoHepatico}}</div>
+            <div class="title">Mecanismo Hepatico</div>
+            <div class="detail">{{drugDetail.mecanismoHepatico}}</div>
         </div>
     </div>
 </div>

@@ -2,90 +2,132 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    background: #dbe1ff40;
 
     .drug-title {
         width: 100%;
+        padding: 3em;
         height: 10em;
-        background: gray;
-
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         span {
-            // Add styles here
+            color: #0c888a;
+            font-weight: bold;
+            font-size: 3em;
         }
     }
 
     .drug-info-container {
         display: flex;
         width: 100%;
+        justify-content: center;
 
         .drug-name {
-            width: 33%;
+            width: 31%;
             display: flex;
             flex-direction: column;
-            background: lightblue;
+            background: #cae1ff8c;
+            padding: 2.25em;
 
             .name {
-                // Add styles here
+                font-size: 1.75em;
+                font-weight: bold;
             }
 
             .names-container {
+                padding: 1.25em 1.75em;
                 div {
-                    // Add styles here
+                    font-size: 1.4em;
+                    padding-bottom: 0.5em;
                 }
             }
         }
 
         .drug-pres {
-            width: 33%;
+            width: 31%;
             display: flex;
             flex-direction: column;
+            background: white;
+            padding: 2.25em;
 
             .pres {
-                // Add styles here
+                font-size: 1.75em;
+                font-weight: bold;
             }
 
             .pres-container {
+                padding: 1.25em 1.75em;
                 div {
-                    // Add styles here
+                    font-size: 1.4em;
+                    padding-bottom: 0.5em;
                 }
             }
 
             .admin {
-                // Add styles here
+                font-size: 1.75em;
+                font-weight: bold;
             }
 
             .admin-container {
+                padding: 1.25em 1.75em;
                 div {
-                    // Add styles here
+                    font-size: 1.4em;
+                    padding-bottom: 0.5em;
                 }
             }
         }
 
         .drug-uses {
-            width: 33%;
+            width: 31%;
             display: flex;
             flex-direction: column;
-            background: lightblue;
+            background: #cae1ff8c;
+            padding: 2.25em;
 
             .uses {
-                // Add styles here
+                font-size: 1.75em;
+                font-weight: bold;
             }
 
             .uses-container {
+                padding: 1.25em 1.75em;
                 div {
-                    // Add styles here
+                    font-size: 1.4em;
+                    padding-bottom: 0.5em;
                 }
             }
         }
     }
 
-    .drug-interactions {
+    .drug-interactions-container {
         width: 100%;
         height: 10em;
         height: auto;
-        background: gray;
-
-        .interactions-title {
-            width: 100%;
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1.5em;
+        .drug-interactions {
+            width: 93%;
+            background: white;
+            padding-bottom: 3em;
+            .interactions-title {
+                width: 100%;
+                padding: 1em 1.25em;
+                font-size: 2.5em;
+                color: #0c888a;
+            }
+            .interactions-info {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                p-panel {
+                    width: 93%;
+                }
+            }
         }
     }
 
@@ -93,9 +135,17 @@
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin-top: 2em;
         .drug-mecanism {
-            div {
-                // Add styles here
+            padding: 2em 6em;
+            .title {
+                font-size: 1.75em;
+                font-weight: bold;
+                color: #0c888a;
+            }
+            .detail {
+                padding: 1em 0em;
+                font-size: 1.5em;
             }
         }
     }
