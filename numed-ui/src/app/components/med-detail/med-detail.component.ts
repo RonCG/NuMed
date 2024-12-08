@@ -11,7 +11,7 @@ import { DrugDetailModel } from 'src/app/models/drug-detail-model';
 export class MedDetailComponent implements OnInit {
 
   drugId: number | null = 0;
-  drugDetail: DrugDetailModel | undefined;
+  drugDetail: any | undefined;
 
   constructor(
     private drugService: DrugService,

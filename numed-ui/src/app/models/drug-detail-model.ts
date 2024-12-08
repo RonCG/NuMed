@@ -5,7 +5,7 @@ export class DrugDetailModel {
     grupo: string | undefined;
     tipo: string | undefined;
     presentacion: string | undefined;
-    mecanismoDeAccion: string | undefined;
+    mecanismoAccion: string | undefined;
     usos: string[] = [];
     embarazo: string | undefined;
     lactancia: string | undefined;
