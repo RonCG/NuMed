@@ -44,5 +44,5 @@ export class HomeComponent implements OnInit {
   }
 
   onDrugSelected(event: AutoCompleteSelectEvent) {
-    this.router.navigate(['/detail'], { queryParams: { drug: event.value.value } });}
+    this.router.navigate(['/detail'], { queryParams: { drugId: event.value.value } });}
 }

@@ -1,5 +1,6 @@
 import { DrugService } from './../../services/drug.service';
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { DrugDetailModel } from 'src/app/models/drug-detail-model';
 
 @Component({
@@ -9,20 +10,23 @@ import { DrugDetailModel } from 'src/app/models/drug-detail-model';
 })
 export class MedDetailComponent implements OnInit {
 
+  drugId: number | null = 0;
   drugDetail: DrugDetailModel | undefined;
 
   constructor(
-    private drugService: DrugService
+    private drugService: DrugService,
+    private route: ActivatedRoute
   ) {
 
   }
 
   ngOnInit(): void {
-    this.initDrugDetail();
+    this.drugId = Number(this.route.snapshot.queryParamMap.get('drugId'));
+    this.getDrugDetail(this.drugId);
   }
 
-  initDrugDetail() {
-    this.drugDetail = this.drugService.getDrugDetail();
+  getDrugDetail(drugId: number) {
+    this.drugDetail = this.drugService.getDrugDetail(drugId);
   }
 
 }
