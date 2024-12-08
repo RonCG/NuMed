@@ -381,9 +381,9 @@ export class DrugService {
                 "presentacion": "comprimido 100mg, 500mg",
                 "mecanismoAccion": "inhibición de la agregación plaquetaria",
                 "usos": [
-                    "\"Alivio del dolor",
+                    "Alivio del dolor",
                     "antiinflamatorio",
-                    "prevención de eventos cardiovasculares\""
+                    "prevención de eventos cardiovasculares"
                 ],
                 "embarazo": "Evitar (categoría D)",
                 "lactancia": "compatibilidad probable",
@@ -430,7 +430,7 @@ export class DrugService {
                 "presentacion": "cápsulas duras 300mg. Polvo para solución oral 600mg",
                 "mecanismoAccion": "inhibición de la agregación plaquetaria",
                 "usos": [
-                    "enfermedad arterial perifériac",
+                    "enfermedad arterial periférica",
                     "prevención de eventos cardiovasculares"
                 ],
                 "embarazo": "con precaución (categoría C)",
@@ -454,7 +454,7 @@ export class DrugService {
                     },
                     {
                         "nombreInteraccion": "Vitamina C",
-                        "mecanismo": "Puede aumentar la absorcion de la aspirina aumentando potencialmente sus efectos terapeuticos."
+                        "mecanismo": "Puede aumentar la absorcion del fármaco aumentando potencialmente sus efectos terapeuticos."
                     },
                     {
                         "nombreInteraccion": "Alimentos ricos en omega-3 y tabaco",
@@ -521,7 +521,7 @@ export class DrugService {
                     },
                     {
                         "nombreInteraccion": "Vitamina C",
-                        "mecanismo": "Puede aumentar la absorcion de la aspirina aumentando potencialmente sus efectos terapeuticos."
+                        "mecanismo": "Puede aumentar la absorcion del fármaco aumentando potencialmente sus efectos terapeuticos."
                     },
                     {
                         "nombreInteraccion": "Alimentos ricos en omega-3 y tabaco",
@@ -573,7 +573,7 @@ export class DrugService {
                     },
                     {
                         "nombreInteraccion": "Vitamina C",
-                        "mecanismo": "Puede aumentar la absorcion de la aspirina aumentando potencialmente sus efectos terapeuticos."
+                        "mecanismo": "Puede aumentar la absorcion del fármaco aumentando potencialmente sus efectos terapeuticos."
                     },
                     {
                         "nombreInteraccion": "Alimentos ricos en omega-3 y tabaco",
@@ -710,10 +710,10 @@ export class DrugService {
                 "presentacion": "comprimido 200mg, solución inyectable 150mg/3 ml, concentrado para solución para perfusión 150mg/3 ml",
                 "mecanismoAccion": "inhibe de forma no competitiva los receptores alfa y beta",
                 "usos": [
-                    "\"Fibrilación ventricular",
+                    "Fibrilación ventricular",
                     "taquicardia ventricular",
                     "fibrilación auricular",
-                    "aleteo auricular\""
+                    "aleteo auricular"
                 ],
                 "embarazo": "evitar (Categoría D)",
                 "lactancia": "compatibilidad limitada (poco seguro)",
@@ -756,9 +756,9 @@ export class DrugService {
                 "presentacion": "comprimido recubierto con película 150mg, 300mg",
                 "mecanismoAccion": "efecto anestésico local y estabilizador de la membrana de la célula miocárdica",
                 "usos": [
-                    "\"Fibrilación auricular",
+                    "Fibrilación auricular",
                     "aleteo auricular",
-                    "arritmias ventriculares\""
+                    "arritmias ventriculares"
                 ],
                 "embarazo": "evitar (Categoría C)",
                 "lactancia": "compatible",
@@ -872,11 +872,11 @@ export class DrugService {
                 "presentacion": "comprimidos 10mg,40mg,80mg, solución inyectable 1mg/1ml",
                 "mecanismoAccion": "antagonista competitivo de receptores B1 y B2",
                 "usos": [
-                    "\"Hipertensión",
+                    "Hipertensión",
                     "angina",
                     "ansiedad",
                     "profilaxis de migraña",
-                    "temblor esencial\""
+                    "temblor esencial"
                 ],
                 "embarazo": "con precaución (Categoría C)",
                 "lactancia": "compatible",
@@ -919,9 +919,9 @@ export class DrugService {
                 "presentacion": "Comprimido (recubierto con película) 50mg, 100mg",
                 "mecanismoAccion": "actúa sobre receptores B1",
                 "usos": [
-                    "\"Hipertensión",
+                    "Hipertensión",
                     "angina",
-                    "manejo post-infarto de miocardio\""
+                    "manejo post-infarto de miocardio"
                 ],
                 "embarazo": "evitar (Categoría D)",
                 "lactancia": "compatibilidad limitada (poco seguro)",
@@ -1192,7 +1192,7 @@ export class DrugService {
                     "Aldactone"
                 ],
                 "presentacion": "Comprimidos: 25 mg, 50 mg, 100 mg",
-                "mecanismoAccion": "\"Antagonista de la aldosterona, promueve la excreción de sodio y agua y la retención de potasio\"",
+                "mecanismoAccion": "Antagonista de la aldosterona, promueve la excreción de sodio y agua y la retención de potasio",
                 "usos": [
                     "insuficiencia cardiaca",
                     "hipertensión",
@@ -1532,7 +1532,7 @@ export class DrugService {
                 "nombresComerciales": [
                     "Lescol"
                 ],
-                "presentacion": "\"Tabletas de 20 mg y 80 mg, también en forma de cápsulas de liberación prolongada.\"",
+                "presentacion": "Tabletas de 20 mg y 80 mg, también en forma de cápsulas de liberación prolongada.",
                 "mecanismoAccion": "Inhibe la HMG-CoA reductasa, reduciendo los niveles de colesterol LDL.",
                 "usos": [
                     "hiperlipidemia",
@@ -1595,8 +1595,8 @@ export class DrugService {
                 "presentacion": "Tabletas de 600 mg",
                 "mecanismoAccion": "Inhibe la lipólisis y disminuye la síntesis de lipoproteínas, reduciendo los niveles de triglicéridos y aumentando el HDL.",
                 "usos": [
-                    "\"Hiperlipidemia",
-                    "dislipidemia (especialmente para reducir los triglicéridos)\""
+                    "Hiperlipidemia",
+                    "dislipidemia (especialmente para reducir los triglicéridos)"
                 ],
                 "embarazo": "con precaución (Categoría C)",
                 "lactancia": "Compatible con preucacion RAM leves o poco probable",
@@ -1619,7 +1619,7 @@ export class DrugService {
                 "id": 39,
                 "grupo": "Sistema Cardiovascular",
                 "tipo": "IECA",
-                "nombreGenerico": "Enapril",
+                "nombreGenerico": "Enalapril",
                 "nombresComerciales": [
                     "Vasotec"
                 ],
@@ -1639,7 +1639,7 @@ export class DrugService {
                 "interacciones": [
                     {
                         "nombreInteraccion": "Regaliz natural",
-                        "mecanismo": "Reduce la eficacia de los efectos hiperteensivos de los IECA."
+                        "mecanismo": "Reduce la eficacia de los efectos hipertensivos de los IECA."
                     },
                     {
                         "nombreInteraccion": "Omega-3",
@@ -3745,7 +3745,7 @@ export class DrugService {
                     "Tranxene"
                 ],
                 "presentacion": "Cápsula dura 10mg, 5mg",
-                "mecanismoAccion": "\"Agonista específico sobre el receptor central que forma parte del complejo \"\"receptores macromoleculares GABA-OMEGA\"\" que modulan la apertura del canal clorado.\"",
+                "mecanismoAccion": "Agonista específico sobre el receptor central que forma parte del complejo receptores macromoleculares GABA-OMEGA que modulan la apertura del canal clorado.",
                 "usos": [
                     "Estados de agitación psicomotriz",
                     "confusión o agresividad",
@@ -3785,7 +3785,7 @@ export class DrugService {
                     "Ragitar"
                 ],
                 "presentacion": "Comprimidos 0,5mg, 1mg",
-                "mecanismoAccion": "\"IMAO-B selectivo e irreversible, aumenta las concentraciones de dopamina en el cuerpo estriado.\"",
+                "mecanismoAccion": "IMAO-B selectivo e irreversible, aumenta las concentraciones de dopamina en el cuerpo estriado.",
                 "usos": [
                     "Enfermedad idiopática de Parkinson en monoterapia o terapia coadyuvante con levodopa al final de las fluctuaciones de la dosis."
                 ],
@@ -3802,7 +3802,7 @@ export class DrugService {
                     },
                     {
                         "nombreInteraccion": "Alimentos ricos en tiramina",
-                        "mecanismo": "\"Aumento de las concentraciones de las aminas exógenas en el organismo y bloque de la MA0, pudiendo desencadenar reacciones adversas conocidas como \"\"reacción al queso\"\"\""
+                        "mecanismo": "Aumento de las concentraciones de las aminas exógenas en el organismo y bloque de la MA0, pudiendo desencadenar reacciones adversas conocidas como reacción al queso"
                     },
                     {
                         "nombreInteraccion": "Plantago Ovata",
@@ -3841,7 +3841,7 @@ export class DrugService {
                     },
                     {
                         "nombreInteraccion": "Alimentos ricos en tiramina",
-                        "mecanismo": "\"Aumento de las concentraciones de las aminas exógenas en el organismo y bloque de la MA0, pudiendo desencadenar reacciones adversas conocidas como \"\"reacción al queso\"\"\""
+                        "mecanismo": "Aumento de las concentraciones de las aminas exógenas en el organismo y bloque de la MA0, pudiendo desencadenar reacciones adversas conocidas como reacción al queso"
                     },
                     {
                         "nombreInteraccion": "Plantago Ovata",
@@ -3889,7 +3889,7 @@ export class DrugService {
                     },
                     {
                         "nombreInteraccion": "Alimentos ricos en tiramina",
-                        "mecanismo": "\"Aumento de las concentraciones de las aminas exógenas en el organismo y bloque de la MA0, pudiendo desencadenar reacciones adversas conocidas como \"\"reacción al queso\"\"\""
+                        "mecanismo": "Aumento de las concentraciones de las aminas exógenas en el organismo y bloque de la MA0, pudiendo desencadenar reacciones adversas conocidas como reacción al queso"
                     },
                     {
                         "nombreInteraccion": "Plantago Ovata",
@@ -3923,7 +3923,7 @@ export class DrugService {
                 "embarazo": "Con precaucion (categoría C)",
                 "lactancia": "compatibilidad limitada (poco seguro)",
                 "administracion": "con o sin alimentos. Sin alimentos (sublingual)",
-                "reaccionesAdversas": "\"Mareo, cefalea, movimientos anormales (como discinesia), vértigo, náuseas, bradicardia, enzimas hepáticas levemente elevadas, confusión, alucinaciones.\"",
+                "reaccionesAdversas": "Mareo, cefalea, movimientos anormales (como discinesia), vértigo, náuseas, bradicardia, enzimas hepáticas levemente elevadas, confusión, alucinaciones.",
                 "mecanismoHepatico": "Se metaboliza principalmente en el hígado a través de las enzimas del citocromo P450, especialmente las isoenzimas CYP2B6, CYP2C19 y CYP2D6. En pacientes con insuficiencia hepática puede haber acumulación de la droga y sus metabolitos activos.",
                 "mecanismoRenal": "Los metabolitos se eliminan principalmente a través de la orina. Precaución en pacientes con insuficiencia renal, se debe monitorear y ajustar las dosis.",
                 "interacciones": [
@@ -3933,7 +3933,7 @@ export class DrugService {
                     },
                     {
                         "nombreInteraccion": "Alimentos ricos en tiramina",
-                        "mecanismo": "\"Aumento de las concentraciones de las aminas exógenas en el organismo y bloque de la MA0, pudiendo desencadenar reacciones adversas conocidas como \"\"reacción al queso\"\"\""
+                        "mecanismo": "Aumento de las concentraciones de las aminas exógenas en el organismo y bloque de la MA0, pudiendo desencadenar reacciones adversas conocidas como reacción al queso"
                     },
                     {
                         "nombreInteraccion": "Plantago Ovata",
@@ -3967,7 +3967,7 @@ export class DrugService {
                 "embarazo": "Compatible (categoria B)",
                 "lactancia": "Compatibilidad probable (bastante seguro )",
                 "administracion": "con o sin alimentos",
-                "reaccionesAdversas": "\"Aturdimiento, somnolencia, anorexia, náuseas, vómitos, diarrea, estreñimiento, sequedad de boca, nariz y garganta, dificultad urinaria, visión borrosa, hipotensión. Uso prolongado: disminución de flujo salivar (caries y molestias bucales).\"",
+                "reaccionesAdversas": "Aturdimiento, somnolencia, anorexia, náuseas, vómitos, diarrea, estreñimiento, sequedad de boca, nariz y garganta, dificultad urinaria, visión borrosa, hipotensión. Uso prolongado: disminución de flujo salivar (caries y molestias bucales).",
                 "mecanismoHepatico": "Se metaboliza principalmente en el hígado a través de la enzima CYP2D6. La extracción hepática de primer paso de difenhidramina es significativa, con estudios en ovejas que indican una tasa de extracción hepática de aproximadamente el 94%. Precaución en pacientes con insuficiencia hepática, puede existir acumulación del fármaco.",
                 "mecanismoRenal": "La excreción renal del fármaco y sus metabolitos es relativamente limitada. La depuración renal de la difenhidramina en sí es baja y el metabolito principal no se metaboliza significativamente en humanos.",
                 "interacciones": [
@@ -4045,7 +4045,7 @@ export class DrugService {
                 "embarazo": "Con precaucion (categoría C)",
                 "lactancia": "Compatible",
                 "administracion": "sin alimentos",
-                "reaccionesAdversas": "\"Cefalea, somnolencia, mareos, náuseas, visión borrosa.\"",
+                "reaccionesAdversas": "Cefalea, somnolencia, mareos, náuseas, visión borrosa.",
                 "mecanismoHepatico": "No se metaboliza extensamente en el hígado. Su forma activa se absorbe principalmente en el tracto gastrointestinal y se excreta sin cambios en la orina y las heces. La captación hepática de fexofenadina está mediada en gran medida por polipéptidos transportadores de aniones orgánicos (OATP).",
                 "mecanismoRenal": "Cerca del 11% de la dosis administrada se excreta por la orina. La farmacocinética de fexofenadina puede verse afectada por insuficiencia renal, lo que lleva a un aumento de los niveles plasmáticos y una vida media de eliminación prolongada en pacientes con función renal reducida.",
                 "interacciones": [
@@ -4100,7 +4100,7 @@ export class DrugService {
                 "embarazo": "Compatible (categoria B)",
                 "lactancia": "Compatible",
                 "administracion": "con o sin alimentos",
-                "reaccionesAdversas": "\"Somnolencia, cefalea, aumento de apetito, insomnio. aumento de peso en niños.\"",
+                "reaccionesAdversas": "Somnolencia, cefalea, aumento de apetito, insomnio. aumento de peso en niños.",
                 "mecanismoHepatico": "Se metaboliza principalmente en el hígado. Este proceso es mediado por el sistema enzimático del citocromo P450. Precaución en pacientes con insuficiencia hepática, puede haber acumulacio4n del fármaco. Se debe considerar una reducción de la dosis.",
                 "mecanismoRenal": "Aproximadamente el 41% del radiocarbono derivado de la loratadina se excreta en la orina y el 43% en las heces. Precaución en pacientes con insuficiencia renal grave donde puede haber acumulación del medicamento. Se recomienda ajustar la dosis.",
                 "interacciones": [
@@ -4222,7 +4222,7 @@ export class DrugService {
                 "embarazo": "Con precaucion (categoría C)",
                 "lactancia": "Compatibilidad probable (bastante seguro )",
                 "administracion": "con o sin alimentos",
-                "reaccionesAdversas": "\"Alucinaciones, sueños anormales, pesadillas, confusión, agitación, comportamiento anormal, nistagmus, hipertonía, movimientos clónicos tónicos, diplopía, aumento de la tensión arterial, aumento de la frecuencia cardiaca.\"",
+                "reaccionesAdversas": "Alucinaciones, sueños anormales, pesadillas, confusión, agitación, comportamiento anormal, nistagmus, hipertonía, movimientos clónicos tónicos, diplopía, aumento de la tensión arterial, aumento de la frecuencia cardiaca.",
                 "mecanismoHepatico": "Se metaboliza en el hígado principalmente a través de la CYP3A4, CYP2B6 y otras enzimas del citocromo P450. La ketamina puede acumularse en pacientes con función hepática deteriorada llevando a un aumento en el riesgo de efectos adversos. Se recomienda reducir la dosis.",
                 "mecanismoRenal": "Aproximadamente 90% de la ketamina y sus metabolitos se excretan por los riñones, aunque una pequeña cantidad puede eliminarse en las heces. En pacientes con insuficiencia renal puede aumentar el riesgo de toxicidad.",
                 "interacciones": [
@@ -4256,12 +4256,12 @@ export class DrugService {
                 "presentacion": "Comprimido recubierto 10mg, 5mg, 20mg, de liberación prolongada 14mg, 28mg, 7mg, solución oral 10mg/ml",
                 "mecanismoAccion": "Antagonista no competitivo de receptores NMDA",
                 "usos": [
-                    "\"Enfermedad de Alzheimer de moderada a grave.\""
+                    "Enfermedad de Alzheimer de moderada a grave."
                 ],
                 "embarazo": "Con precaucion (categoría C)",
                 "lactancia": "compatibilidad limitada (poco seguro)",
                 "administracion": "con o sin alimentos",
-                "reaccionesAdversas": "\"Dolor de cabeza, somnolencia, estreñimiento, vértigo, alteración del equilibrio, HTA, disnea, hipersensibilidad, pruebas de la función hepática elevada.\"",
+                "reaccionesAdversas": "Dolor de cabeza, somnolencia, estreñimiento, vértigo, alteración del equilibrio, HTA, disnea, hipersensibilidad, pruebas de la función hepática elevada.",
                 "mecanismoHepatico": "Se metaboliza minimamente en el hígado por las enzimas del citocromo P450, en particular la C YP2D6.",
                 "mecanismoRenal": "Su eliminación es principalmente renal, siendo excretada de manera no modificada. En pacientes con insuficiencia renal se incrementa el riesgo de efectos secundarios. Se recomienda ajustar la dosis en función de la tasa de filtración glomerular (TFG).",
                 "interacciones": [
@@ -4300,13 +4300,13 @@ export class DrugService {
                 "presentacion": "Jarabe 15mg/5ml, 10mg/5ml, 7,5mg/5ml, 100mg/5ml,  líquido oral 3mg/ml, granulado para solución oral 20mg+500mg+10mg+4mg",
                 "mecanismoAccion": "Deprime el centro medular de la tos al disminuir la producción de taquicininas. Ligera acción sedante, sin acción narcótica ni analgésica.",
                 "usos": [
-                    "\"Tratamiento sintomático de formas improductivas de tos (irritativa",
-                    "nerviosa).\""
+                    "Tratamiento sintomático de formas improductivas de tos (irritativa",
+                    "nerviosa)."
                 ],
                 "embarazo": "Con precaucion (categoría C)",
                 "lactancia": "Compatible",
                 "administracion": "con o sin alimentos",
-                "reaccionesAdversas": "\"Mareos, nauseas, vómitos, molestias gastrointestinales, fatiga.\"",
+                "reaccionesAdversas": "Mareos, nauseas, vómitos, molestias gastrointestinales, fatiga.",
                 "mecanismoHepatico": "Se metaboliza en el hígado, principalmente por las enzimas CYP2D6, que lo convierten en su metabolito activo. Precaución en pacientes con insuficiencia hepática.",
                 "mecanismoRenal": "El fármaco y sus metabolitos se excretan en la orina. En pacientes con insuficiencia renal, el dextrometorfano puede acumularse, lo que puede incrementar el riesgo de efectos adversos.",
                 "interacciones": [

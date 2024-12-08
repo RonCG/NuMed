@@ -1,6 +1,7 @@
 <div class="drug-container" *ngIf="drugDetail">
     <div class="drug-title">
-        <span>{{drugDetail.nombreGenerico}}</span>
+        <span class="title">{{drugDetail.nombreGenerico}}</span>
+        <span class="grupo">{{drugDetail.grupo}}</span>
     </div>
     <div class="drug-info-container">
         <div class="drug-name">
@@ -46,7 +47,7 @@
     </div>
     <div class="drug-interactions-container">
         <div class="drug-interactions">
-            <div class="interactions-title">Interacciones</div>
+            <div class="interactions-title">Interacciones Nutricionales</div>
             <div *ngFor="let interaccion of drugDetail.interacciones" class="interactions-info">
                 <p-panel [header]="interaccion.nombreInteraccion" [toggleable]="true" [collapsed]="true">
                     <p>
