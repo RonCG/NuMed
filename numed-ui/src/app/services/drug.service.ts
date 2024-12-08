@@ -442,7 +442,7 @@ export class DrugService {
                 "interacciones": [
                     {
                         "nombreInteraccion": "Alcohol",
-                        "mecanismo": "En combinación con aspirina puede aumentar el riesgo de sangrado gastrointestinal e irritación."
+                        "mecanismo": "En combinación con el fármaco puede aumentar el riesgo de sangrado gastrointestinal e irritación."
                     },
                     {
                         "nombreInteraccion": "Suplementos con actividades antiagregantes/antiplaquetarias",
@@ -462,7 +462,7 @@ export class DrugService {
                     },
                     {
                         "nombreInteraccion": "Antiácidos y comidas altas en fibra",
-                        "mecanismo": "Los antiácidos pueden interferir con la absorción de aspirina, dado que alteran el pH del estómago y los intestinos. Las comidas altas en fibra pueden disminuir la absorción al retrasar el proceso digestivo."
+                        "mecanismo": "Los antiácidos pueden interferir con la absorción del fármaco, dado que alteran el pH del estómago y los intestinos. Las comidas altas en fibra pueden disminuir la absorción al retrasar el proceso digestivo."
                     },
                     {
                         "nombreInteraccion": "Jugo de arándano",
@@ -509,7 +509,7 @@ export class DrugService {
                 "interacciones": [
                     {
                         "nombreInteraccion": "Alcohol",
-                        "mecanismo": "En combinación con aspirina puede aumentar el riesgo de sangrado gastrointestinal e irritación."
+                        "mecanismo": "En combinación con el fármaco puede aumentar el riesgo de sangrado gastrointestinal e irritación."
                     },
                     {
                         "nombreInteraccion": "Suplementos con actividades antiagregantes/antiplaquetarias",
@@ -529,7 +529,7 @@ export class DrugService {
                     },
                     {
                         "nombreInteraccion": "Antiácidos y comidas altas en fibra",
-                        "mecanismo": "Los antiácidos pueden interferir con la absorción de aspirina, dado que alteran el pH del estómago y los intestinos. Las comidas altas en fibra pueden disminuir la absorción al retrasar el proceso digestivo."
+                        "mecanismo": "Los antiácidos pueden interferir con la absorción del fármaco, dado que alteran el pH del estómago y los intestinos. Las comidas altas en fibra pueden disminuir la absorción al retrasar el proceso digestivo."
                     },
                     {
                         "nombreInteraccion": "Jugo de arándano",
@@ -561,7 +561,7 @@ export class DrugService {
                 "interacciones": [
                     {
                         "nombreInteraccion": "Alcohol",
-                        "mecanismo": "En combinación con aspirina puede aumentar el riesgo de sangrado gastrointestinal e irritación."
+                        "mecanismo": "En combinación con el fármaco puede aumentar el riesgo de sangrado gastrointestinal e irritación."
                     },
                     {
                         "nombreInteraccion": "Suplementos con actividades antiagregantes/antiplaquetarias",
@@ -581,7 +581,7 @@ export class DrugService {
                     },
                     {
                         "nombreInteraccion": "Antiácidos y comidas altas en fibra",
-                        "mecanismo": "Los antiácidos pueden interferir con la absorción de aspirina, dado que alteran el pH del estómago y los intestinos. Las comidas altas en fibra pueden disminuir la absorción al retrasar el proceso digestivo."
+                        "mecanismo": "Los antiácidos pueden interferir con la absorción del fármaco, dado que alteran el pH del estómago y los intestinos. Las comidas altas en fibra pueden disminuir la absorción al retrasar el proceso digestivo."
                     },
                     {
                         "nombreInteraccion": "Jugo de arándano",
@@ -896,10 +896,6 @@ export class DrugService {
                     {
                         "nombreInteraccion": "Alcohol",
                         "mecanismo": "Puede aumentar los efectos de la medicación llevando a un aumento de la sedación y caídas potenciales de la presión arterial."
-                    },
-                    {
-                        "nombreInteraccion": "Regaliz natural",
-                        "mecanismo": ""
                     },
                     {
                         "nombreInteraccion": "Alimentos ricos en potasio",
@@ -3929,7 +3925,7 @@ export class DrugService {
                 "interacciones": [
                     {
                         "nombreInteraccion": "Hierba de San Juan",
-                        "mecanismo": "Potenciación del sïndrome serotoninérgico."
+                        "mecanismo": "Potenciación del síndrome serotoninérgico."
                     },
                     {
                         "nombreInteraccion": "Alimentos ricos en tiramina",
