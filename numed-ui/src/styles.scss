@@ -37,3 +37,23 @@ p-panel {
     border-radius: 10px !important;
     width: 93% !important;
 }
+
+.btn {
+    .p-button {
+        border-radius: 30px;
+        background-color: #5167bc !important;
+        font-size: 0.75em;
+        padding: 1.5em 2.75em;
+    }
+}
+
+.btn-white {
+    .p-button {
+        border-radius: 30px;
+        background-color: white !important;
+        border: 1px solid white;
+        color: black;
+        font-size: 0.75em;
+        padding: 1.5em 2.75em;
+    }
+}

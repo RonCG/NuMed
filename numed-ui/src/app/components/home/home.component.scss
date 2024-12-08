@@ -51,16 +51,55 @@
     .home-more-info {
         display: flex;
         width: 100%;
-        height: 40em;
+        height: 42em;
         .envejecimiento {
             width: 50%;
             height: 100%;
-            background: lightblue;
+            background-image: url("../../../assets/img9.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .title {
+                width: 80%;
+                font-size: 2.25em;
+                font-weight: bold;
+                padding-bottom: 0.5em;
+                text-align: center;
+            }
+            .info {
+                width: 70%;
+                font-size: 1.3em;
+                padding-bottom: 1.5em;
+            }
+            .button {
+            
+            }
         }
         .polifarmacia {
             width: 50%;
             height: 100%;
-            background: lightcoral;
+            background-image: url("../../../assets/img10.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .title {
+                width: 80%;
+                font-size: 2.25em;
+                font-weight: bold;
+                padding-bottom: 0.5em;
+                text-align: center;
+            }
+            .info {
+                width: 70%;
+                font-size: 1.3em;
+                padding-bottom: 1.5em;
+            }
         }
     }
     .home-sabias-que {
@@ -93,7 +132,12 @@
         .footer {
             width: 87%;
             font-size: 1.42em;
-            padding: 2em 0em;
+            padding: 2em 0em 1em 0em;
+        }
+        .link {
+            width: 87%;
+            font-size: 1.42em;
+            padding-bottom: 2em;
         }
     }
     .home-perfil-demo {

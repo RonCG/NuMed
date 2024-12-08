@@ -9,7 +9,7 @@ import { MedDetailComponent } from './components/med-detail/med-detail.component
 import { AutoCompleteModule } from 'primeng/autocomplete';
 import { PanelModule } from 'primeng/panel';
 import { CapitalizeFirstPipe } from './pipes/capitalize-first.pipe';
-
+import { ButtonModule } from 'primeng/button';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,8 @@ import { CapitalizeFirstPipe } from './pipes/capitalize-first.pipe';
     BrowserAnimationsModule,
     AppRoutingModule,
     AutoCompleteModule,
-    PanelModule
+    PanelModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
