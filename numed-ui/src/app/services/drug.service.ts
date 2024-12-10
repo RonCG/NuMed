@@ -65,7 +65,7 @@ export class DrugService {
                     },
                     {
                         "nombreInteraccion": "Espirulina",
-                        "mecanismo": "Se ha demostrado que la espirulina tiene efectos hipoglucémicos  leves, lo que puede beneficiar a personas con diabetes tipo 2. Puede mejorar la sensibilidad a la insulina y ayudar a reducir los niveles de glucosa en sangre en ayunas."
+                        "mecanismo": "Se ha demostrado que la espirulina tiene efectos hipoglucémicos leves, lo que puede beneficiar a personas con diabetes tipo 2. Puede mejorar la sensibilidad a la insulina y ayudar a reducir los niveles de glucosa en sangre en ayunas."
                     },
                     {
                         "nombreInteraccion": "Alcohol",
